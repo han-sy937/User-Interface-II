@@ -38,14 +38,6 @@
 
   }
 
-  @media (max-width:400px){
-    header h1{
-      font-size: 2.5rem;
-      width: 100%;
-      padding: 4%;
-    }
-  }
-
   header nav{
     /* border: 1px solid red; */
     width: 40%;
@@ -53,12 +45,6 @@
     padding: 1% 2%;
   }
 
-  @media (max-width:400px){
-    header nav{
-      width: 100%;
-      
-    }
-  }
 
   header nav a{
       font-size: 1.8rem;
@@ -82,24 +68,9 @@
 
 }
 
-@media (max-width:400px){
-  .description{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 .pic{
     /* border: 1px solid red; */
     width: 40%;
-}
-
-@media (max-width:400px){
-  .pic{
-    width: 50%;
-    
-  }
 }
 
 .about-me{
@@ -108,25 +79,10 @@
     /* padding: 5%; */
 }
 
-@media (max-width:400px){
-  .about-me{
-    width: 90%;
-    text-align: center;
-  }
-}
-
-
-
 .about-me h2{
   font-size: 3.2rem;
   padding: 2% 0;
   color: #1C2128;
-}
-
-@media (max-width:400px){
-  .about-me h2{
-    font-size: 2.1rem;
-  }
 }
 
 .about-me button{
@@ -141,25 +97,10 @@
   font-size: 1.8rem;
 }
 
-@media (max-width:400px){
-  .about-me button{
-    width: 40%;
-    font-size: 1.4rem;
-    padding: 2%;
-  }
-}
-
 .about-me p{
   padding: 2% 0;
   width: 65%;
   font-size: 1.8rem;
-}
-
-@media (max-width:400px){
-  .about-me p{
-    font-size: 1.2rem;
-    width: 100%;
-  }
 }
 
 .gallery{
@@ -181,12 +122,6 @@
   padding: 3% 2% 2%;
 }
 
-@media (max-width:400px){
-  .gallery div{
-    width: 50%;
-  }
-}
-
 .gallery h3{
   /* border: 1px solid white; */
   color: white;
@@ -194,12 +129,6 @@
   font-size: 1.8rem;
   padding: 3% 0 0;
   
-}
-
-@media (max-width:400px){
-  .gallery h3{
-    font-size: 1.2rem;
-  }
 }
 
 footer{
@@ -219,12 +148,6 @@ footer p{
   color: #1C2128;
 }
 
-@media (max-width:400px){
-  footer p{
-    font-size: 1.8rem;
-  }  
-}
-
 footer button{
   background-color: #F78D1E;
   border: none;
@@ -237,14 +160,6 @@ footer button{
   font-size: 1.8rem;
 }
 
-@media (max-width:400px){
-  footer button{
-    width: 40%;
-    font-size: 1.4rem;
-    padding: 2%;
-  }
-}
-
 footer .social{
   width: 10%;
   display: flex;
@@ -253,8 +168,159 @@ footer .social{
 }
 
 
-@media (max-width:400px){
-  footer .social{
-    width: 40%;
+@media(max-width: 500px){
+  header{
+    height: 45vh;
   }
+
+  header h1{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4.0rem;
+  }
+
+  header nav{
+    width: 100%;
+    height: 35vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header nav a{
+      border: 2px solid #E1E2E2;
+      width: 60%;
+  }
+
+  .description{
+    flex-direction: column;
+  }
+
+  .pic{
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .about-me{
+      /* border: 1px solid red; */
+      height: 35vh;
+      width: 90%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+  }
+
+  .about-me button{
+    padding: 2.5%;
+    width: 50%;
+  }
+
+  .about-me p{
+    /* border: 1px solid red; */
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .gallery div {
+    width: 50%;
+  }
+
+  footer p{
+    font-size: 2.1rem;
+  }
+  
+  footer button{
+    padding: 2%;
+    width: 25%;
+    font-size: 1.6rem;
+  }
+  
+  footer .social{
+    width: 35%;
+  }
+
 }
+
+@media(max-width: 800px){
+  header{
+    height: 55vh;
+  }
+
+  header h1{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4.0rem;
+  }
+
+  header nav{
+    width: 100%;
+    height: 45vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header nav a{
+      border: 2px solid #E1E2E2;
+      width: 60%;
+  }
+
+  .description{
+    flex-direction: column;
+  }
+
+  .pic{
+    /* border: 1px solid red; */
+    width: 80%;
+  }
+
+  .about-me{
+      /* border: 1px solid red; */
+      height: 35vh;
+      width: 90%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+  }
+
+  .about-me button{
+    padding: 2.5%;
+    width: 50%;
+  }
+
+  .about-me p{
+    /* border: 1px solid red; */
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .gallery div {
+    width: 50%;
+  }
+
+  footer p{
+    font-size: 2.1rem;
+  }
+  
+  footer button{
+    padding: 2%;
+    width: 25%;
+    font-size: 1.6rem;
+  }
+  
+  footer .social{
+    width: 35%;
+  }
+
+}
+
